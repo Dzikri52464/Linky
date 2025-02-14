@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Rewrite rule untuk menangani short URLs
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?short=$1 [L]
